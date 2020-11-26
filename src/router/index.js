@@ -33,7 +33,19 @@ const routes = [
       {
         path: 'page5',
         component: () => import('../views/page/MyPage5.vue')
+      },
+      {
+        path: 'page6',
+        component: () => import('../views/page/MyPage6.vue')
       },      
+      {
+        path: 'page7',
+        component: () => import('../views/page/MyPage7.vue')
+      },                  
+      {
+        path: 'page8',
+        component: () => import('../views/page/MyPage8.vue')
+      },                        
     ] 
   // {
   //   path: '/about',

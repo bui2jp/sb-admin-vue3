@@ -8,6 +8,8 @@ Vue.config.productionTip = false
 //
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
+//import 'popper.js/dist/popper.min'
+
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.min'
 

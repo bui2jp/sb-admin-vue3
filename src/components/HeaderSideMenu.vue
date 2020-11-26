@@ -15,7 +15,7 @@
           <!-- <i class="fas fa-laugh-wink"></i> -->
           <i class="fas fa-fw fa-folder"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Example <sup>99</sup></div>
+        <div class="sidebar-brand-text mx-3">Example <sup>2020</sup></div>
       </a>
 
       <!-- Divider -->
@@ -69,6 +69,36 @@
           <a class="nav-link" href="#">
             <i class="fas fa-fw fa-folder"></i>
             <span>Page5 card</span></a
+          >
+        </router-link>
+      </li>
+      
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item">
+        <router-link to="page6">
+          <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Page6 (Dialog)</span></a
+          >
+        </router-link>
+      </li>
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item">
+        <router-link to="page7">
+          <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Page7 (alert)</span></a
+          >
+        </router-link>
+      </li>
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item">
+        <router-link to="page8">
+          <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Page8 (tab)</span></a
           >
         </router-link>
       </li>

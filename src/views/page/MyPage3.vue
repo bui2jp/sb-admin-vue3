@@ -1,8 +1,7 @@
 <template>
   <div>
-    page3
-    <v-calendar :attributes="attrs"></v-calendar>
-    <v-date-picker v-model="selectedDate" />
+    <v-calendar :attributes="attrs" class="d-inline-block"></v-calendar>
+    <v-date-picker class="d-inline-block" v-model="selectedDate" />
   </div>
 </template>
 

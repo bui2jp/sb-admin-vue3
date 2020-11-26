@@ -12,7 +12,7 @@ module.exports = {
                 //'window.jQuery': 'jquery',                
                 // jquery: 'jquery',
                 // 'window.$': 'jquery',
-                // Popper: ['popper.js', 'default'],
+                //Popper: ['popper.js', 'default'],
               })
         ]
     }    
