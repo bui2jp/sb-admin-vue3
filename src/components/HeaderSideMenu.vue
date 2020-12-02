@@ -68,7 +68,7 @@
         <router-link to="page5">
           <a class="nav-link" href="#">
             <i class="fas fa-fw fa-folder"></i>
-            <span>Page5 card</span></a
+            <span>Page5 (list&card)</span></a
           >
         </router-link>
       </li>
@@ -99,6 +99,26 @@
           <a class="nav-link" href="#">
             <i class="fas fa-fw fa-folder"></i>
             <span>Page8 (tab)</span></a
+          >
+        </router-link>
+      </li>
+
+      <!-- Nav Item -->
+      <li class="nav-item">
+        <router-link to="page9">
+          <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Page9 (list)</span></a
+          >
+        </router-link>
+      </li>
+
+      <!-- Nav Item -->
+      <li class="nav-item">
+        <router-link to="page10">
+          <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Page10 (HLS)</span></a
           >
         </router-link>
       </li>

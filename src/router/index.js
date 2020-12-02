@@ -46,6 +46,14 @@ const routes = [
         path: 'page8',
         component: () => import('../views/page/MyPage8.vue')
       },                        
+      {
+        path: 'page9',
+        component: () => import('../views/page/MyPage9.vue')
+      },                              
+      {
+        path: 'page10',
+        component: () => import('../views/page/MyPage10.vue')
+      },                                    
     ] 
   // {
   //   path: '/about',

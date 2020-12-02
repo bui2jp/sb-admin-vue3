@@ -5,9 +5,7 @@
         <!-- Basic Card Example -->
         <div class="card shadow mb-4">
           <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">
-              Card
-            </h6>
+            <h6 class="m-0 font-weight-bold text-primary">Card</h6>
           </div>
           <div class="card-body mx-auto">
             <img v-bind:src="myImage" style="height: 250px" />
@@ -21,15 +19,21 @@
       </div>
     </div>
     <div class="spinner-border text-primary" role="status">
-  <span class="sr-only">Loading...</span>
-</div>
+      <span class="sr-only">Loading...</span>
+    </div>
+    <MyCarousel />
   </div>
 </template>
 
 <script>
 import axios from "axios";
 
+import MyCarousel from "@/components/Carousel.vue";
+
 export default {
+  components: {
+    MyCarousel
+  },
   data() {
     return {
       myImage: null,

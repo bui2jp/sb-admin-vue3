@@ -1,6 +1,13 @@
 <template>
   <!-- Begin Page Content -->
   <div class="container-fluid">
+    <div class="row">
+        <MySelectableList2 class="col" />
+    </div>    
+    <div class="row">
+        <MySelectableList class="col-6" />
+    </div>
+
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
       <h1 class="h3 mb-0 text-gray-800">Cards</h1>
@@ -30,6 +37,19 @@
     <a href="#" class="btn btn-danger btn-circle">
       NG<!-- <i class="fab fa-facebook-f"></i> -->
     </a>    
+
   </div>
   <!-- /.container-fluid -->
 </template>
+
+<script>
+import MySelectableList from "@/components/SelectableList.vue";
+import MySelectableList2 from "@/components/SelectableList2.vue";
+export default {
+  components:{
+    MySelectableList,
+    MySelectableList2
+    
+  }
+}
+</script>

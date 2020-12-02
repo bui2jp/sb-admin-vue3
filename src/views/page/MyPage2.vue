@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div id="map"></div>
+    OpenLayers v6.4.3 example
+    <div class="m-0" id="map"></div>
   </div>
 </template>
 
@@ -24,11 +25,13 @@ export default {
         layers: [
           new TileLayer({
             source: new XYZ({
-              url: "https://tile.mierune.co.jp/mierune_mono/{z}/{x}/{y}.png",
+              //url: "https://tile.mierune.co.jp/mierune_mono/{z}/{x}/{y}.png",
+              url: "http://c.tile.openstreetmap.org/{z}/{x}/{y}.png",
               attributions:
-                'Maptiles by <a href="http://mierune.co.jp" target="_blank">MIERUNE</a>, under CC BY. Data by <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors, under ODbL.',
-              attributionsCollapsible: true,
-              tileSize: [256, 256],
+                '© OpenStreetMap contributors : CC BY-SA2.0',
+                //'Maptiles by <a href="http://mierune.co.jp" target="_blank">MIERUNE</a>, under CC BY. Data by <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors, under ODbL.',
+              attributionsCollapsible: false,
+              //tileSize: [256, 256],
               minZoom: 0,
               maxZoom: 18,
             }),
