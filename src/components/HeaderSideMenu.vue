@@ -123,6 +123,15 @@
         </router-link>
       </li>
 
+      <!-- Nav Item -->
+      <li class="nav-item">
+        <router-link to="page11">
+          <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Page11 (Elastic Search)</span></a
+          >
+        </router-link>
+      </li>
       <!-- Sidebar Toggler (Sidebar) -->
       <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>
@@ -252,7 +261,7 @@ let sb_admin2_js_func = () => {
 
   // Scroll to top button appear
   $(document).on("scroll", function () {
-    console.log("sb-admin-2:scroll");
+    //console.log("sb-admin-2:scroll");
     var scrollDistance = $(this).scrollTop();
     if (scrollDistance > 100) {
       $(".scroll-to-top").fadeIn();
