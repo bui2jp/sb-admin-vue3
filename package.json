@@ -17,6 +17,7 @@
     "hls.js": "^0.14.16",
     "jquery": "^3.5.1",
     "jquery-easing": "0.0.1",
+    "mqtt": "^4.2.6",
     "ol": "^6.4.3",
     "popper.js": "^1.16.1",
     "register-service-worker": "^1.7.1",

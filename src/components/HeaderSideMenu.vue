@@ -132,6 +132,17 @@
           >
         </router-link>
       </li>
+
+      <!-- Nav Item -->
+      <li class="nav-item">
+        <router-link to="page12">
+          <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Page12 (MQTT)</span></a
+          >
+        </router-link>
+      </li>
+
       <!-- Sidebar Toggler (Sidebar) -->
       <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>
