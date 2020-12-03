@@ -1,8 +1,7 @@
-# vue-sb-admin2
+# vue-sb-admin3
 
-Vue js
-SB Admin 2 - Dashboard
-SB Admin 2で利用しているvenderライブラリをnpmで読み込むようにしてみる
+Vue js + SB Admin 2 - Dashboard
+SB Admin 2で利用しているvenderライブラリをnpmで読み込む
 
 venderライブラリ
 ```
@@ -11,6 +10,9 @@ bootstrap
 jquery
 jquery.easing
 ```
+# その他の機能
+VOD(HLS:Http Live Streaming形式のファイルの再生)
+Elastic Searchへの連携
 
 ## Project setup
 ```
