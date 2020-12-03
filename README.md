@@ -1,4 +1,4 @@
-# vue-sb-admin3
+# vue-sb-admin2+α
 
 Vue js + SB Admin 2 - Dashboard
 SB Admin 2で利用しているvenderライブラリをnpmで読み込む
